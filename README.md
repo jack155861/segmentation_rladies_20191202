@@ -20,8 +20,10 @@
 *   wget https://github.com/huochaitiantang/pytorch-deep-image-matting/releases/download/v1.4/stage1_sad_54.4.pth
 
 ### run with python
-1. python3 -m pip install tensorflow==1.14
-2. demo.ipynb
+1. file name
+*   demo.ipynb
+2. tensorflow version
+*   python3 -m pip install tensorflow==1.14
 3. deeplabv3plus(photo_input, website)
 *   photo_input (from local or website)
 4. result_trimap = trimap(image, size, erosion)
@@ -31,3 +33,14 @@
 *   pic_input (original photo)
 *   tri_input (trimap from result_trimap function)
 
+### run with R (through reticulate)
+1. file name
+*   code_20191106.R
+2. set python route
+3. set working directory
+4. import py file
+5. segmentation & matting
+
+### run with R (to do list)
+1. file name
+*   test.R
